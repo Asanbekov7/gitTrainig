@@ -45,6 +45,7 @@ extension ViewController: UITextFieldDelegate {
     func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         print("textFieldShouldEndEditing = внимание закончилось редактирование")
         return true
+        //
     }
     //Сообщает делегату, когда редактирование останавливается для указанного текстового поля, и причину, по которой оно остановилось.
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
